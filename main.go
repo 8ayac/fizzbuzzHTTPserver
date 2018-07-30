@@ -31,7 +31,7 @@ func fizzbuzz(n int) (result string) {
 
 func invalidNumber(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusBadRequest)
-	w.Write([]byte("Invalid number."))
+	w.Write([]byte("invalid number"))
 }
 
 func main() {
